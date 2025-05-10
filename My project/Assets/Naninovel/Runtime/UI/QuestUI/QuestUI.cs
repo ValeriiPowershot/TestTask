@@ -1,16 +1,23 @@
 ﻿using Naninovel.UI;
 using TMPro;
+using UnityEngine;
 using UnityEngine.Serialization;
 
 namespace Naninovel.Runtime.UI.QuestUI
 {
     public class QuestUI : CustomUI
     {
-        public TextMeshProUGUI QuestText;
-
-        public void SetText(string text)
+        [SerializeField] private TextMeshProUGUI _questTitleText; 
+        [SerializeField] private TextMeshProUGUI _questDescriptionText;
+        
+        public void SetTitle(string text)
         {
-            QuestText.text = text;
+            _questTitleText.text = text;
+        }
+
+        public void SetDescription(string text)
+        {
+            _questDescriptionText.text = text;
         }
     }
 }

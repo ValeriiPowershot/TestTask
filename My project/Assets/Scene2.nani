@@ -1,0 +1,18 @@
+@back Street
+
+@wait 2
+
+@char Theroux.DefaultClose pose:Default
+
+Theroux: You didn't come here by accident. But I had hoped you wouldn't find me. Was it your will or an accident?
+Theroux:Do you believe the answers are hidden in books?
+
+@char Theroux.DefaultOpen pose:Default
+
+Theroux: If you want to know what happened to you - you need to realise that we're playing a dangerous game. Everything you find here will be part of your downfall.
+Theroux: You carry a burden that is too heavy for the common man.
+
+@showUI QuestUI
+@setQuest title:"Pass the test of memory" description:"Pass the challenge, it will lead you to a clue"
+
+@stop

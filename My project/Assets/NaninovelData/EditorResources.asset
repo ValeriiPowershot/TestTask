@@ -152,9 +152,12 @@ MonoBehaviour:
     - name: Prologue
       pathPrefix: Scripts
       guid: b73e779c24c350b45828630fac7fe7e4
-    - name: Observatory
+    - name: Scene1
       pathPrefix: Scripts
       guid: 0cd7c6ed26f943e41b039b3d828dee5a
+    - name: Scene2
+      pathPrefix: Scripts
+      guid: 743f425d28697d84d8f7c42bc4c51058
   - Id: Backgrounds/407651f8-3d31-49df-8aea-d54da05b2382
     Resources:
     - name: BlackBackground
@@ -163,6 +166,9 @@ MonoBehaviour:
     - name: NightSky
       pathPrefix: Backgrounds/MainBackground
       guid: f56ea2cbba6d56f49a733ea98f266a15
+    - name: Street
+      pathPrefix: Backgrounds/MainBackground
+      guid: 15d093fcfd655f34691a54a9ff01f9b2
   - Id: Characters/21307494-604e-496f-9bdc-a865b2d72020
     Resources:
     - name: HOODIE-1
@@ -190,3 +196,17 @@ MonoBehaviour:
     - name: DefaultClose
       pathPrefix: Characters/Selena
       guid: b844ca02118ea704a83f7e8c48f41017
+  - Id: Characters/6ad22b89-c75e-42e6-a79e-4ec20faaa138
+    Resources:
+    - name: HappyOpen
+      pathPrefix: Characters/Theroux
+      guid: 27d2b817adfc46b4f89f7bedeb53a942
+    - name: DefaultOpen
+      pathPrefix: Characters/Theroux
+      guid: bfcafdaf3969a6749a3bcc7b611ed300
+    - name: HappyClose
+      pathPrefix: Characters/Theroux
+      guid: e7857898754c5d34d9942da316bbe135
+    - name: DefaultClose
+      pathPrefix: Characters/Theroux
+      guid: e4e23b6cf9efe0146ba603225a7455bd

@@ -1,0 +1,39 @@
+@back NightSky
+
+@char Selena.DefaultOpen pose:Default
+
+Selena: ...You're here. I felt it as soon as the sky shook.
+
+@char Selena.DefaultClose pose:Default
+
+Selena: You're like an echo of a star that flew down from the heavens and fell into my world.
+
+@char Selena.HappyClose pose:Default
+
+Selena: You don't remember...? It's to be expected. Falling almost always takes away something valuable.
+
+@char Selena.HappyClose pose:Default
+
+Selena: You didn't come empty-handed, even if you don't know it yourself. There's something. ‘around you. Something to guide you.
+
+Selena: You must find someone who can understand it. His name is Teru. He lives among the books hidden in the dust of the past.
+
+@showUI QuestUI
+
+@setQuest title:"Find Theroux in the Archives" description:"He will help unravel the meaning of what happened."
+
+@char Selena.DefaultClose pose:Default
+
+Selena: He who has hidden the truth hides behind the pages of old books. He thinks it will save him from what is inevitable. But you will find him.
+
+Selena: You have to be careful. Teru... he doesn't believe what's happening. He's trying to control the knowledge, but it's not for hiding.
+
+@char Selena.DefaultOpen pose:Default
+
+Selena: He won't greet you with open hands. Be prepared.
+
+@hideUI QuestUI
+@hide Selena
+@hide Dialogue
+
+@goto Scene2
