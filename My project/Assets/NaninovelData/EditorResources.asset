@@ -144,3 +144,49 @@ MonoBehaviour:
     - name: ScriptNavigatorUI
       pathPrefix: UI
       guid: 735d6aa767879aa469134858c5b2f0a7
+    - name: QuestUI
+      pathPrefix: UI
+      guid: ab6a4c0c83623ae4ea7bf5e8ef8ca26e
+  - Id: Scripts
+    Resources:
+    - name: Prologue
+      pathPrefix: Scripts
+      guid: b73e779c24c350b45828630fac7fe7e4
+    - name: Observatory
+      pathPrefix: Scripts
+      guid: 0cd7c6ed26f943e41b039b3d828dee5a
+  - Id: Backgrounds/407651f8-3d31-49df-8aea-d54da05b2382
+    Resources:
+    - name: BlackBackground
+      pathPrefix: Backgrounds/MainBackground
+      guid: 606d0e08cfdef874a81b0dfa3e03b65c
+    - name: NightSky
+      pathPrefix: Backgrounds/MainBackground
+      guid: f56ea2cbba6d56f49a733ea98f266a15
+  - Id: Characters/21307494-604e-496f-9bdc-a865b2d72020
+    Resources:
+    - name: HOODIE-1
+      pathPrefix: Characters/Hoodie
+      guid: 940c9ae511b1f2d4bb7da27f7bd4176f
+    - name: HOODIE-2
+      pathPrefix: Characters/Hoodie
+      guid: a56a5afd2e5b88b4786b678b78c1f438
+  - Id: TextPrinters/167f5457-769d-45c5-8e36-7498f108ac88
+    Resources:
+    - name: Hoodie
+      pathPrefix: TextPrinters
+      guid: 1bc08ccd31adff6439e97161aa6e1d8b
+  - Id: Characters/46b9436a-54b4-4b87-b5af-e41bcbbb89f1
+    Resources:
+    - name: HappyOpen
+      pathPrefix: Characters/Selena
+      guid: bae771acc4e67ee48b3efce608005772
+    - name: HappyClose
+      pathPrefix: Characters/Selena
+      guid: e6aa0665ce604144db5e46f597cefae8
+    - name: DefaultOpen
+      pathPrefix: Characters/Selena
+      guid: 9149eb78eea674649ab0beb8505899b8
+    - name: DefaultClose
+      pathPrefix: Characters/Selena
+      guid: b844ca02118ea704a83f7e8c48f41017

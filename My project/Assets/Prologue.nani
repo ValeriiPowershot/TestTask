@@ -1,0 +1,12 @@
+@back BlackBackground
+
+Voice: ...Who are you?.. You were someone... once...
+Voice: You hear it... The wind whispers your name. Slipping through your mind... But maybe—just maybe—you'll remember?
+
+
+@input name summary:"Remember your name"
+@stop
+
+Voice: {name}... That was your name. Or is. Or will be...
+
+@goto Observatory
